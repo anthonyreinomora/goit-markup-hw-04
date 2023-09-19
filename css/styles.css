@@ -390,6 +390,9 @@ ul {
   background-color: var(--accent-color);
   color: var(--third-text-color);
 }
+.icon-item:hover .icon-fill {
+  fill: var(--third-text-color);
+}
 
 .clients-list {
   display: flex;
