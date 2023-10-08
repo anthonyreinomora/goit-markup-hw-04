@@ -352,7 +352,7 @@ ul {
       rgba(26, 25, 56, 0.5) 74%,
       rgba(2, 0, 36, 1) 100%
     ),
-    url('/images/Imagesecciontitle.jpg');
+    url('../images/Imagesecciontitle.jpg');
   background-size: cover;
   text-align: center;
 }
