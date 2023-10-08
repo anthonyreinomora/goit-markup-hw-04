@@ -92,7 +92,7 @@ ul {
   /* height: 600px; */
   align-items: center;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 207px 252px 273px 252px;
 }
 .main-title .main-title-big {
@@ -102,6 +102,7 @@ ul {
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  max-width: 1600px;
 }
 .main-title .main-button {
   background-color: var(--accent-color);
@@ -147,6 +148,7 @@ ul {
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-top: 94px;
 }
 .teams-item .profesional-team {
   font-weight: 500;
@@ -296,6 +298,7 @@ ul {
   display: flex;
   justify-content: center;
   gap: 8px;
+  margin-top: 112px;
 }
 .button-todo {
   padding: 6px 18px 6px 17px;
@@ -369,9 +372,10 @@ ul {
   padding: 16px 32px 30px 32px;
 }
 
-.social-item {
+.social-linksvg {
   background-color: var(--primary-background-color);
   color: var(--border-icons-color);
+  fill: var(--border-icons-color);
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -379,18 +383,17 @@ ul {
   justify-content: center;
   align-items: center;
 }
-
-.social-item:hover {
+.social-linksvg:hover {
   background-color: var(--accent-color);
   color: var(--third-text-color);
   cursor: pointer;
 }
 
-.social-item:focus {
+.social-linksvg:focus {
   background-color: var(--accent-color);
   color: var(--third-text-color);
 }
-.icon-item:hover .icon-fill {
+.social-linksvg:hover .icon-fill {
   fill: var(--third-text-color);
 }
 
@@ -399,20 +402,22 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding-top: 59px;
-  padding-bottom: 151px;
+  /* padding-bottom: 151px; */
 }
 .clients-item {
   padding: 14.1px 32px;
   border: 1px solid var(--border-icons-color);
-  fill: var(--border-icons-color);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
 }
 .clients-item:hover {
   border-color: var(--accent-color);
-  fill: var(--accent-color);
   cursor: pointer;
+}
+.clients-link {
+  fill: var(--border-icons-color);
+  color: var(--border-icons-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
 }
 .clients-item:hover .clients-link {
   cursor: pointer;
